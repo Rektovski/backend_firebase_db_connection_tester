@@ -1,16 +1,50 @@
-Using Css frameworks:
-- Bootstrap
-- React-Bootstrap
-- Chakra UI
+STATUS: LOCAL PROJECT.
 
-1. Add favicon.ico in public folder. index.html will auto find it.
-2. Change title tag in index.html
-3. Change short_name in manifest.json
-4. Change name in manifest.json
-5. Change description in manifest.json
-6. App.css is ready with custom css. Check it before you start project. Change it if you don't like it.
-7. Check package.json dependencies. Add something if you want. Change version of libraries. Or delete it.
-8. Change package.json author values
+DO NOT FORGET TO USE LOADING SCREEN FOR SAFETY OF ONE METHOD COMPLETION
+DO NOT FORGET TO CONNECT YOUR OWN FIREBASE PROJECT TO TEST YOURSELF.
 
 
-Have a great day and crystal code <3 
+GET     METHOD: Read.js;
+POST    METHOD: Write.js;
+PUT     METHOD: Update.js;
+DELETE  METHOD: Delete.js;
+
+
+Step: 1
+
+add the ".env" file in the root folder.
+write next lines in ".env" folder.
+
+REACT_APP_API_KEY=
+REACT_APP_AUTH_DOMAIN=
+REACT_APP_DATABASE_URL=
+REACT_APP_PROJECT_ID=
+REACT_APP_STORAGE_BUCKET=
+REACT_APP_MESSAGING_SENDER_ID=
+REACT_APP_APP_ID=
+REACT_APP_MEASUREMENT_ID=
+
+Step: 2
+
+Open firebase.
+Open project.
+Project overview -> project settings -> scroll down and copy "const firebaseConfig"'s object values in step 1's key
+
+
+
+
+
+
+
+
+TESTING LINKS
+
+1. localhost:3000/read
+2. localhost:3000/write
+3. localhost:3000/update
+4. localhost:3000/delete
+
+
+Step: 3
+
+Enjoy testing.

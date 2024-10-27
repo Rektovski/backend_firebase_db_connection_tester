@@ -2,8 +2,13 @@
 
 .App {
   cursor: default;
-  font-family: "Comic Sans MS", monospace, sans-serif, serif;
+  font-family: "Sylfaen", monospace, sans-serif, serif;
   overflow: hidden;
+  background: #2d2d2d;
+  color: white;
+  height: 100vh;
+  font-size: 20px;
+  padding: 20px 20px;
 }
 
 a {

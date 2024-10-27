@@ -1,7 +1,7 @@
 {
-  "name": "reactdefault",
+  "name": "firebase_connection_tester",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Otar Murmanishvili",
     "email": "murmanishvili94@gmail.com",
@@ -16,6 +16,8 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "1.6.0",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "firebase": "^11.0.1",
     "framer-motion": "^8.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
@@ -26,8 +28,7 @@
     "react-scripts": "5.0.1",
     "sass": "^1.57.1",
     "scss": "^0.2.4",
-    "web-vitals": "^2.1.0",
-    "dotenv": "^16.4.5"
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
